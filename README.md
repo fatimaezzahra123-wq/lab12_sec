@@ -13,7 +13,6 @@ Contourner la détection de root dans l’application *OWASP Uncrackable Level 1
 * Android Emulator
 
 ---
-
 ## Étapes
 
 ### 1. Vérification
