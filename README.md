@@ -18,14 +18,14 @@ Contourner la détection de root dans l’application *OWASP Uncrackable Level 1
 
 ### 1. Vérification
 
-adb devices
-frida --version
+*adb devices
+*frida --version
 
 ### 2. Lancement de frida-server
 
-adb push frida-server /data/local/tmp/
-adb shell chmod 755 /data/local/tmp/frida-server
-adb shell /data/local/tmp/frida-server
+*adb push frida-server /data/local/tmp/
+*adb shell chmod 755 /data/local/tmp/frida-server
+*adb shell /data/local/tmp/frida-server
 
 
 ### 3. Vérification des applications
@@ -43,9 +43,9 @@ Le root n’est plus détecté.
 
 ### 5. Utilisation de Medusa
 
-py medusa.py
-startserver
-list
+*py medusa.py
+*startserver
+*list
 
 
 ### Après (bypass réussi)
